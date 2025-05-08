@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: darkorange;
+    padding-left: 1px;
+
+}
+
+header img {
+    width: 135px;
+    height: 92px;
+}
+
+.navbar-brand {
+    color: rgba(202, 125, 24, 0.808);
+}
+
+.navbar {
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(97, 74, 18) !important;
+    box-shadow: 5px 5px 7px #000;
+
+}
+
+.nav-link {
+    color: #fff !important
+}
+
+.banner img {
+    object-fit: none;
+    object-position: 100% 10%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.carousel-control-next-icon {
+    background-color:darkgoldenrod;
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-control-prev-icon {
+    background-color:darkgoldenrod;
+    width: 40px;
+    height: 40px;
+  }
+
+
+.row {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 0px
+}
+
+.card1{
+    height: 237px;
+
+}
+
+.card2{
+    height: 237px;
+
+}
+
+.row h2 {
+    width: 200%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+#depoimentos {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    border-top: 30px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+
+.depoimento {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 5, 0.5);
+}
+
+.depoimento img {
+    padding-right: 11px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.rating>.star {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 1.5em;
+    color: #FFD700;
+}
+.footer{
+    background-color:goldenrod ;
+    
+}
+
+.company-info{
+padding: 20px;
+background-color:rgb(131, 92, 9);
+}
+i.bi.bi-facebook {
+    color: blue;
+}
+i.bi.bi-twitter{
+    color: lightskyblue;
+}
+i.bi.bi-instagram{
+    color: rgb(233, 89, 89);
+}
+.bi.bi-linkedin{
+color: cornflowerblue;
+}
+.d-flex{
+    text-align: center;
+}
+.social-icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+.icon-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.icon-link:hover {
+    transform: scale(1.05);
+}
+
+.icon-link img {
+    margin-bottom: 10px;
+}
